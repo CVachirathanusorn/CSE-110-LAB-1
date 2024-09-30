@@ -5,9 +5,13 @@
 #sec-2{
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
     color: #fff;
+    width: 100%;
+
 }
 
-#sec-2{
+#sec-4{
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: #fff;
     width: 100%;
 }
 
@@ -15,14 +19,24 @@ div{
     display: inline-block;
 }
 
+#navbar{
+    width: 100%;
+    background-color: #fff;
+}
+
 #navbar li {
     display: inline;
 }
 
-#navbar li a:hover{
+#navbar li:hover{
     background-color: #182b49;
     color: #fff;
 }
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
 
 #navbar {
     background-color: #fff;
