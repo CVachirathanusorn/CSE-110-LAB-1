@@ -40,6 +40,10 @@ div{
     scroll-margin-top: 80px;
 }
 
+.section img{
+    max-width: 100%;
+}
+
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -52,4 +56,30 @@ div{
     max-height: 500px;
     overflow: scroll;
     color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    a{
+        display: none;
+    }
+
+    #navbar img{
+        max-width: 75%;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        grid-row: 2;
+    }
+    
 }
